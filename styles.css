@@ -15,7 +15,8 @@ body {
   align-items: center;
   min-height: 100vh;
 }
-.container {
+.thank-container,
+.main-container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -36,6 +37,10 @@ body {
   font-size: 1.75rem;
   color: hsl(0, 0%, 100%);
   margin-bottom: 15px;
+}
+.title2 {
+  font-size: 1.75rem;
+  color: hsl(0, 0%, 100%);
 }
 .des {
   color: hsl(217, 12%, 63%);
@@ -74,6 +79,10 @@ body {
   color: hsl(0, 0%, 100%);
   background-color: hsl(25, 97%, 53%);
 }
+li {
+  list-style: none;
+}
+#restart-btn,
 #submit-btn {
   color: hsl(0, 0%, 100%);
   background-color: hsl(25, 97%, 53%);
@@ -83,6 +92,7 @@ body {
   font-weight: 700;
   padding: 17px 123px;
 }
+#restart-btn:hover,
 #submit-btn:hover {
   color: hsl(25, 97%, 53%);
   background-color: hsl(0, 0%, 100%);
@@ -90,11 +100,28 @@ body {
 button {
   cursor: pointer;
 }
+.result {
+  color: hsl(25, 97%, 53%);
+  background-color: rgb(41, 46, 55);
+  padding: 10px 20px;
+  border-radius: 2rem;
+}
+.thank-container .des {
+  text-align: center;
+}
+.thank-container .title {
+  margin-bottom: 0r;
+}
+
+.hidden {
+  display: none;
+}
 
 .attribution {
   font-size: 11px;
   text-align: center;
   color: hsl(0, 0%, 100%);
+  margin-top: 2rem;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);

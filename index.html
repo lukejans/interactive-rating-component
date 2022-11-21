@@ -21,7 +21,7 @@
   </head>
   <body>
     <div class="wrapper">
-      <main class="container">
+      <main class="main-container">
         <div class="push-left">
           <div class="star">
             <img src="./images/icon-star.svg" aria-hidden="true" alt="Star" />
@@ -36,32 +36,39 @@
           </p>
         </section>
 
-        <section class="ratings">
-          <button class="rate" id="r1">1</button>
-          <button class="rate" id="r2">2</button>
-          <button class="rate" id="r3">3</button>
-          <button class="rate" id="r4">4</button>
-          <button class="rate" id="r5">5</button>
-        </section>
+        <ul class="ratings">
+          <li><button class="rate" id="r1">1</button></li>
+          <li><button class="rate" id="r2">2</button></li>
+          <li><button class="rate" id="r3">3</button></li>
+          <li><button class="rate" id="r4">4</button></li>
+          <li><button class="rate" id="r5">5</button></li>
+        </ul>
 
         <button id="submit-btn">SUBMIT</button>
       </main>
+
+      <div class="thank-container hidden">
+        <img
+          src="./images/illustration-thank-you.svg"
+          aria-hidden="true"
+          alt="Thank You"
+        />
+        <p class="result">You selected <span id="rated"></span> out of 5</p>
+
+        <h2 class="title2">Thank you!</h2>
+
+        <p class="des">
+          We appreciate you taking the time to give a rating. If you ever need
+          more support, don’t hesitate to get in touch!
+        </p>
+        <button id="restart-btn">RESTART</button>
+      </div>
+      <footer class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="https://github.com/lukejans">Luke Janssen</a>.
+      </footer>
     </div>
-
-    <!--
-  <p class="result">You selected <span id="r-sub"></span> out of 5</p>
-
-  <h2 class="title">Thank you!</h2>
-
-  <p class="des">We appreciate you taking the time to give a rating. If you ever need more support, 
-  don’t hesitate to get in touch!</p> 
-    -->
-
-    <footer class="attribution">
-      Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-        >Frontend Mentor</a
-      >. Coded by <a href="https://github.com/lukejans">Luke Janssen</a>.
-    </footer>
   </body>
 </html>
