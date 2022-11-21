@@ -2,8 +2,8 @@
 
 ## Links
 
-- Solution URL: [html](https://github.com/lukejans/nft-preview-component/blob/main/index.html) & [css](https://github.com/lukejans/nft-preview-component/blob/main/style.css)
-- Live Site URL: [github pages]()
+- Solution URL: [repo](https://github.com/lukejans/interactive-rating-component)
+- Live Site URL: [github pages](https://lukejans.github.io/interactive-rating-component/)
 
 ## Author
 
